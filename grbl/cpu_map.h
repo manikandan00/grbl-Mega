@@ -36,8 +36,8 @@
   #define STEP_DDR      DDRA
   #define STEP_PORT     PORTA
   #define STEP_PIN      PINA
-  #define X_STEP_BIT    2 // MEGA2560 Digital Pin 24
-  #define Y_STEP_BIT    3 // MEGA2560 Digital Pin 25
+  #define X_STEP_BIT    54 // MEGA2560 Digital Pin 24
+  #define Y_STEP_BIT    60// MEGA2560 Digital Pin 25
   #define Z_STEP_BIT    4 // MEGA2560 Digital Pin 26
   #define STEP_MASK ((1<<X_STEP_BIT)|(1<<Y_STEP_BIT)|(1<<Z_STEP_BIT)) // All step bits
 
@@ -45,8 +45,8 @@
   #define DIRECTION_DDR     DDRC
   #define DIRECTION_PORT    PORTC
   #define DIRECTION_PIN     PINC
-  #define X_DIRECTION_BIT   7 // MEGA2560 Digital Pin 30
-  #define Y_DIRECTION_BIT   6 // MEGA2560 Digital Pin 31
+  #define X_DIRECTION_BIT   55// MEGA2560 Digital Pin 30
+  #define Y_DIRECTION_BIT   61 // MEGA2560 Digital Pin 31
   #define Z_DIRECTION_BIT   5 // MEGA2560 Digital Pin 32
   #define DIRECTION_MASK ((1<<X_DIRECTION_BIT)|(1<<Y_DIRECTION_BIT)|(1<<Z_DIRECTION_BIT)) // All direction bits
 
